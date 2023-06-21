@@ -441,12 +441,12 @@ p .copyright {
     margin-top: 50px;
   }
   .social-media > .copyright{
-     width: 100%;
-    font-size: 10px;
+ width: 100%;
+    font-size: 8px;
     margin-top: 25px;
     padding-left: 0px;
-    padding-left: 25px ;
-    align-items: center;
+    padding: 0px 26px 0px 26px;
+    text-align: center; 
   }
   
 
@@ -456,7 +456,12 @@ p .copyright {
     justify-content: space-between;
     padding: 0px 125px 0 95px;
   }
-  
+
+  .contact > img{
+    width: 45%;
+    margin-top: 10px;
+    height:27% ;
+  }
  
   
 }
